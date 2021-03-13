@@ -16,8 +16,8 @@ jobs:
             python_version: "3.9"
           - name: python3.9-alpine3.12
             python_version: "3.9"
-          - name: python3.9-slim
-            python_version: "3.9"
+#          - name: python3.9-slim
+#            python_version: "3.9"
           - name: python3.9
             python_version: "3.9"
       fail-fast: true
