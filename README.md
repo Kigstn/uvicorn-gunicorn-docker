@@ -9,6 +9,15 @@ Once tiangolo build images for python3.9, this repository will become irrelevant
 
 **This images are built for personal usage. Use with cautions**!
 
+Images can be downloaded from [DockerHub](https://hub.docker.com/repository/docker/winnerokay/uvicorn-gunicorn)
+
+## Tags available
+* [`python3.9`, `latest` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9.dockerfile)
+* [`python3.9-slim` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-slim.dockerfile)
+* [`python3.9-alpine` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine.dockerfile)
+* [`python3.9-alpine3.12` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine3.12.dockerfile)
+
+
 # Original tiangolo's README
 
 [![Test](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ADeploy)
