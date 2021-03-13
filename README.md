@@ -1,3 +1,16 @@
+# Disclaimer
+
+The repository contains builds of `uvicorn-guicorn` created by [tiangolo](https://github.com/tiangolo)
+([sources](https://github.com/tiangolo/uvicorn-gunicorn-docker)) for python3.9
+
+The base for `python3.9` images is taken from [graue70](https://github.com/graue70)'s [PR](https://github.com/tiangolo/uvicorn-gunicorn-docker/pull/52)
+
+Once tiangolo build images for python3.9, this repository will become irrelevant.
+
+**This images are built for personal usage. Use with cautions**!
+
+# Original tiangolo's README
+
 [![Test](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ADeploy)
 
 ## Supported tags and respective `Dockerfile` links
