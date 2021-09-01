@@ -11,7 +11,6 @@ The repository contains builds of `uvicorn-guicorn` created by [tiangolo](https:
 Images can be downloaded from [DockerHub](https://hub.docker.com/repository/docker/kigstn/uvicorn-gunicorn)
 
 
-
 # Original tiangolo's README
 
 [![Test](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Test/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ATest) [![Deploy](https://github.com/tiangolo/uvicorn-gunicorn-docker/workflows/Deploy/badge.svg)](https://github.com/tiangolo/uvicorn-gunicorn-docker/actions?query=workflow%3ADeploy)
