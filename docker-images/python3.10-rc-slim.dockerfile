@@ -1,10 +1,13 @@
-FROM python:3.8-alpine3.10
+FROM python:3.10-rc-slim
 
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
-RUN apk add --no-cache --virtual .build-deps gcc libc-dev make \
-    && pip install --no-cache-dir "uvicorn[standard]" gunicorn \
-    && apk del .build-deps gcc libc-dev make
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends gcc libc-dev \
+    && rm -rf /var/lib/apt/lists/* \
+    && pip install cython
+RUN pip install --no-cache-dir "uvicorn[standard]" gunicorn
+RUN apt-get purge -y --auto-remove gcc libc-dev
 
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh

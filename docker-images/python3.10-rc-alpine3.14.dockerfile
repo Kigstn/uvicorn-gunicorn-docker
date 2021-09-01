@@ -1,8 +1,10 @@
-FROM python:3.8
+FROM python:3.10-rc-alpine3.14
 
 LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
 
-RUN pip install --no-cache-dir "uvicorn[standard]" gunicorn
+RUN apk add --no-cache --virtual .build-deps gcc libc-dev make \
+    && pip install --no-cache-dir "uvicorn[standard]" gunicorn \
+    && apk del .build-deps gcc libc-dev make
 
 COPY ./start.sh /start.sh
 RUN chmod +x /start.sh

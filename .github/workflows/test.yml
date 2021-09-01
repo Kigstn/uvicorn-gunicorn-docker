@@ -11,15 +11,15 @@ jobs:
       matrix:
         image:
           - name: latest
-            python_version: "3.9"
-          - name: python3.9-alpine
-            python_version: "3.9"
-          - name: python3.9-alpine3.12
-            python_version: "3.9"
-          - name: python3.9-slim
-            python_version: "3.9"
-          - name: python3.9
-            python_version: "3.9"
+            python_version: "3.10-rc"
+          - name: python3.10-rc-alpine
+            python_version: "3.10-rc"
+          - name: python3.10-rc-alpine3.14
+            python_version: "3.10-rc"
+          - name: python3.10-rc-slim
+            python_version: "3.10-rc"
+          - name: python3.10-rc
+            python_version: "3.10-rc"
       fail-fast: true
     runs-on: ubuntu-18.04
     steps:

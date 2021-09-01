@@ -1,21 +1,15 @@
 # Disclaimer
 
 The repository contains builds of `uvicorn-guicorn` created by [tiangolo](https://github.com/tiangolo)
-([sources](https://github.com/tiangolo/uvicorn-gunicorn-docker)) for python3.9
+([sources](https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker)) and [WinnerOK](https://github.com/WinnerOK)
+([sources](https://github.com/WinnerOK/uvicorn-gunicorn-fastapi-docker)) for python3.10
 
-The base for `python3.9` images is taken from [graue70](https://github.com/graue70)'s [PR](https://github.com/tiangolo/uvicorn-gunicorn-docker/pull/52)
-
-Once tiangolo build images for python3.9, this repository will become irrelevant.
+**Not tiangolo's images!**
 
 **This images are built for personal usage. Use with cautions**!
 
-Images can be downloaded from [DockerHub](https://hub.docker.com/repository/docker/winnerokay/uvicorn-gunicorn)
+Images can be downloaded from [DockerHub](https://hub.docker.com/repository/docker/kigstn/uvicorn-gunicorn)
 
-## Tags available
-* [`python3.9`, `latest` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9.dockerfile)
-* [`python3.9-slim` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-slim.dockerfile)
-* [`python3.9-alpine` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine.dockerfile)
-* [`python3.9-alpine3.12` _(Dockerfile)_](https://github.com/WinnerOK/uvicorn-gunicorn-docker/blob/master/docker-images/python3.9-alpine3.12.dockerfile)
 
 
 # Original tiangolo's README

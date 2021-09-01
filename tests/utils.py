@@ -56,6 +56,6 @@ def get_response_text2() -> str:
 
 
 def generate_dockerfile_content(name: str) -> str:
-    content = f"FROM winnerokay/uvicorn-gunicorn:{name}\n"
+    content = f"FROM kigstn/uvicorn-gunicorn:{name}\n"
     content += "COPY ./app /app"
     return content
