@@ -3,10 +3,10 @@ import subprocess
 import sys
 
 environments = [
-    {"NAME": "python3.10-alpine", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.10-alpine3.14", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.10-slim", "PYTHON_VERSION": "3.10"},
-    {"NAME": "python3.10", "PYTHON_VERSION": "3.10"},
+    {"NAME": "python3.10.0-alpine", "PYTHON_VERSION": "3.10.0"},
+    {"NAME": "python3.10.0-alpine3.14", "PYTHON_VERSION": "3.10.0"},
+    {"NAME": "python3.10.0-slim", "PYTHON_VERSION": "3.10.0"},
+    {"NAME": "python3.10.0", "PYTHON_VERSION": "3.10.0"},
 ]
 
 start_with = os.environ.get("START_WITH")
