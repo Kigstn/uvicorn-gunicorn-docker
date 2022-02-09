@@ -9,4 +9,5 @@ if [ "$NAME" == "latest" ] ; then
     DOCKERFILE="python3.10.2"
 fi
 
+docker buildx create --use
 docker buildx build --platform=linux/amd64,linux/arm64,linux/arm/v8 -t "$use_tag" --file "./docker-images/${DOCKERFILE}.dockerfile" "./docker-images/"
