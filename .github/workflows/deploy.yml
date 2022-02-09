@@ -12,13 +12,13 @@ jobs:
         image:
           - name: latest
             python_version: "3.10.1"
-          - name: python3.10.1-alpine
+          - name: python3.10.2-alpine
             python_version: "3.10.1"
-          - name: python3.10.1-alpine3.15
+          - name: python3.10.2-alpine3.15
             python_version: "3.10.1"
-          - name: python3.10.1-slim
+          - name: python3.10.2-slim
             python_version: "3.10.1"
-          - name: python3.10.1
+          - name: python3.10.2
             python_version: "3.10.1"
       fail-fast: true
     runs-on: ubuntu-18.04
